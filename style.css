@@ -1,0 +1,82 @@
+/*
+QMENUBAR
+*/
+
+QMenuBar {
+    color: black;
+    background-color: #cbcbcd;
+    border: 1px solid black;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+}
+
+QMenuBar::item:selected {
+    color: white;
+    background-color: #3c3b37;
+
+}
+
+QMenuBar::item::pressed{
+    background-color: #ef7a52;}
+
+
+
+
+/*
+QLISTWIDGET
+*/
+
+QListWidget {
+    font-size: 10.5pt;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px 3px;
+    margin: 2px 3px;
+
+}
+
+QListWidget::item {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 2px 3px;
+    margin: 2px 3px;
+}
+
+
+QListWidget::item:selected {
+    background-color: #ef7a52;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+
+/*
+QLINEEDIT
+*/
+
+
+QLineEdit {
+        font-size: 11pt;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 2px 3px;
+        margin: 2px 3px;
+}
+
+QLineEdit:focus {
+        border: 3px solid #ef7a52;
+}
+
+/*
+QPUSHBUTTON
+*/
+
+QPushButton {
+    font-size: 10pt;
+    max-height: 0.98em;
+
+}
